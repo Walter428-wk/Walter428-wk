@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Heart, ShoppingBag, Star, Minus, Plus, ArrowLeft } from 'lucide-react';
-import { products } from '../data/products';
+import { products } from '../data/Products';
 import { useCart } from '../hooks/useCart';
 
 const ProductDetail: React.FC = () => {
