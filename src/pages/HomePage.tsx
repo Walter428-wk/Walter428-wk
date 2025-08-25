@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star, Truck, Shield, RotateCcw } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
-import { products } from '../data/products';
+import { products } from '../data/Products';
 
 const HomePage: React.FC = () => {
   const featuredProducts = products.filter(p => p.featured);

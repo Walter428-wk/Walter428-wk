@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, Edit, Trash2, Package, Users, DollarSign, TrendingUp } from 'lucide-react';
-import { products as initialProducts } from '../data/products';
+import { products as initialProducts } from '../data/Products';
 import { Product } from '../types';
 
 const AdminDashboard: React.FC = () => {
